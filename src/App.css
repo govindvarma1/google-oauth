@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+.body {
+  height: 92vh;
+  place-items: center;
+  position: relative;
+}
+
+.body::before {
+  background-image: url("https://www.donotedit.com/wp-content/uploads/2022/11/background-of-the-research.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  content: " ";
+  opacity: 0.4;
+  position: absolute;
+  inset: 0;
+
+}

@@ -14,7 +14,7 @@ export default function Header() {
   }
   return (
     <NavBar>
-      <h1>Authetication</h1>
+      <h1>Authentication</h1>
       <Link to={path} className="Link">
         <div className="profile" onClick={handleClick}>
           <BiSolidUser />
